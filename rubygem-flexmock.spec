@@ -22,6 +22,7 @@ BuildRequires:	ruby(abi) = %{rubyabi}
 BuildRequires:	ruby-RubyGems
 BuildRequires:	rubygem(rake)
 BuildRequires:	rubygem(hoe)
+BuildRequires:	ruby-rdoc
 Requires:	ruby(abi) = %{rubyabi}
 Requires:	ruby-RubyGems
 Provides:	rubygem(%{gemname}) = %{version}-%{release}
