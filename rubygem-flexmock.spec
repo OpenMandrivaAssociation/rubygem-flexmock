@@ -12,7 +12,7 @@
 Summary:	Mock object library for ruby
 Name:		rubygem-%{gemname}
 Version:	0.9.0
-Release:	%mkrel 1
+Release:	2
 Group:		Development/Ruby 
 License:	Copyright only
 URL:		http://flexmock.rubyforge.org
