@@ -5,13 +5,14 @@ Summary:	Simple and Flexible Mock Objects for Testing
 Name:		rubygem-%{rbname}
 
 Version:	0.9.0
-Release:	2
+Release:	3
 Group:		Development/Ruby
 License:	GPLv2+ or Ruby
 URL:		https://github.com/jimweirich/flexmock
 Source0:	http://rubygems.org/gems/%{rbname}-%{version}.gem
 BuildRequires:	rubygems 
 BuildArch:	noarch
+%rename		ruby-flexmock
 
 %description
 FlexMock is a extremely simple mock object class compatible
