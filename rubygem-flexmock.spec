@@ -4,8 +4,8 @@
 Summary:	Simple and Flexible Mock Objects for Testing
 Name:		rubygem-%{rbname}
 
-Version:	0.9.0
-Release:	3
+Version:	1.0.3
+Release:	1
 Group:		Development/Ruby
 License:	GPLv2+ or Ruby
 URL:		https://github.com/jimweirich/flexmock
@@ -38,6 +38,8 @@ Documents, RDoc & RI documentation for %{name}.
 
 %files
 %dir %{ruby_gemdir}/gems/%{rbname}-%{version}
+%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/doc/examples
+%{ruby_gemdir}/gems/%{rbname}-%{version}/doc/examples/*.rdoc
 %dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib
 %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/*.rb
 %dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/flexmock
@@ -60,3 +62,24 @@ Documents, RDoc & RI documentation for %{name}.
 %{ruby_gemdir}/gems/%{rbname}-%{version}/doc/*.rdoc
 %dir %{ruby_gemdir}/gems/%{rbname}-%{version}/doc/releases
 %{ruby_gemdir}/gems/%{rbname}-%{version}/doc/releases/*.rdoc
+
+
+%changelog
+* Fri Feb 17 2012 Per Øyvind Karlsen <peroyvind@mandriva.org> 0.9.0-3
++ Revision: 775597
+- %rename ruby-flexmock
+
+* Wed Feb 15 2012 Per Øyvind Karlsen <peroyvind@mandriva.org> 0.9.0-2
++ Revision: 774534
+- regenerate spec with gem2rpm5
+- mass rebuild of ruby packages against ruby 1.9.1
+
+* Mon Sep 12 2011 Alexander Barakin <abarakin@mandriva.org> 0.9.0-1
++ Revision: 699539
+- missing rdoc fix
+- imported package rubygem-flexmock
+
+* Fri Dec 03 2010 Rémy Clouard <shikamaru@mandriva.org> 0.8.11-1mdv2011.0
++ Revision: 606980
+- import rubygem-flexmock
+
