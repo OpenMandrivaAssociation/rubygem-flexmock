@@ -5,7 +5,7 @@ Summary:	Simple and Flexible Mock Objects for Testing
 Name:		rubygem-%{rbname}
 
 Version:	1.0.3
-Release:	1
+Release:	2
 Group:		Development/Ruby
 License:	GPLv2+ or Ruby
 URL:		https://github.com/jimweirich/flexmock
